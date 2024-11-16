@@ -1,0 +1,30 @@
+
+/* src/index.css */
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.article-cards, .tutorial-cards {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly */
+  margin: 20px 0;
+}
+
+.article-card, .tutorial-card {
+  flex: 1; /* Ensure each card takes equal space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin: 0 10px; /* Adds spacing between cards */
+}
+
+.signup-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+}
